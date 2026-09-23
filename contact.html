@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BizCraft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION BAR (Same standard layout, active link is on contact) -->
+    <nav class="navbar">
+        <div class="logo">BizCraft</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- 2. PAGE HEADER -->
+    <header class="page-header">
+        <div class="header-content">
+            <h1>Get In Touch With Us</h1>
+            <p>Have questions about plans or want to start a custom project? Reach out anytime.</p>
+        </div>
+    </header>
+
+    <!-- 3. CONTACT MAIN SECTION -->
+    <section class="contact-main">
+        <div class="contact-wrapper">
+            
+            <!-- Left Side: Contact Information -->
+            <div class="contact-info-panel">
+                <h2>Our Contact Details</h2>
+                <p>Feel free to contact our customer support team or visit our office directly during functional hours.</p>
+                
+                <div class="info-item-box">
+                    <span class="info-icon">📍</span>
+                    <div class="info-text">
+                        <h5>Office Address</h5>
+                        <p>Main Boulevard, Phase 6, DHA, Lahore, Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="info-item-box">
+                    <span class="info-icon">📞</span>
+                    <div class="info-text">
+                        <h5>Phone / WhatsApp</h5>
+                        <p>+92 300 1234567</p>
+                    </div>
+                </div>
+
+                <div class="info-item-box">
+                    <span class="info-icon">✉️</span>
+                    <div class="info-text">
+                        <h5>Email Support</h5>
+                        <p>info@bizcraft.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Interactive Form -->
+            <div class="contact-form-panel">
+                <h2>Send Us A Message</h2>
+                <form action="#" method="POST" class="interactive-form">
+                    <div class="form-group-row">
+                        <div class="form-control">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="example@mail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Project Inquiry / Feedback" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="6" placeholder="Type your detailed message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 4. GOOGLE MAP SECTION -->
+    <section class="map-section">
+        <!-- Placeholder for a clean dark map layout framework -->
+        <iframe 
+            src="https://google.com" 
+            width="100%" 
+            height="400" 
+            style="border:0; display:block;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 BizCraft. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
